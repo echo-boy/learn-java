@@ -10,7 +10,8 @@
     <version>1.0.0</version>
     <modules>
         <module>0-Hello-World</module>
-        <module>1-基础知识</module>
+        <module>1-编译运行</module>
+        <module>2-基础知识</module>
     </modules>
 
 
