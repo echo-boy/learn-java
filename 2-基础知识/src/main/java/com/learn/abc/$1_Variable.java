@@ -1,9 +1,15 @@
-package com.learn.datatype;
+package com.learn.abc;
 
 /**
  * Create by WEH on 2018-08-14 18:51
  */
-public class Variable {
+public class $1_Variable {
+
+    /*
+     * ------------------------------------
+     * 基本数据类型
+     * ------------------------------------
+     */
 
     public static void main(String[] args) {
         // 声明变量
