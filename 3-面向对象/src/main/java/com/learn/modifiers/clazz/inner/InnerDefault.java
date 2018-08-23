@@ -5,6 +5,33 @@ package com.learn.modifiers.clazz.inner;
  */
 class InnerDefault {
 
+    public static int count = 0;
+
+    public final String name;
+
+    InnerDefault(String name) {
+        this.name = name;
+    }
+
+    static class Child extends InnerDefault {
+        public Child() {
+            this("");
+        }
+
+        Child(String name) {
+            super(name);
+            count++;
+        }
+    }
+
+    public static void main(String[] args) {
+        Child child = null;
+        for (int i = 0; i < 100; i++) {
+            child = new Child();
+        }
+        System.out.println(child.count);
+    }
+
     /*
      * 当前类【InnerDefault】的访问级别是"default"的，只能"当前包"中可以访问（即使用）
      */

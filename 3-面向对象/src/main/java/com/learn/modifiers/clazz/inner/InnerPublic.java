@@ -13,7 +13,7 @@ public class InnerPublic {
      * InnerDefault的访问级别是"default"，和当前类是同一个包下，可以访问
      */
     void accessDefault() {
-        InnerDefault innerDefault = new InnerDefault();
+        InnerDefault innerDefault = new InnerDefault("");
     }
 
 }
