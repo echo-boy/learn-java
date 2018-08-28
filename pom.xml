@@ -20,6 +20,7 @@
         <module>1-编译运行</module>
         <module>2-基础知识</module>
         <module>3-面向对象</module>
+        <module>4-异常处理</module>
     </modules>
 
     <build>
